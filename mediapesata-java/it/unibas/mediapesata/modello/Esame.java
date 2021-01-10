@@ -67,6 +67,12 @@ public class Esame {
         }
         return risultato;
     }
+	
+	public String prova(){
+		return "Prova git";
+	}
+	
+
 
     public String toSaveString() {
         return this.insegnamento + " | " + this.crediti + " | " 
